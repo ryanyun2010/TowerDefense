@@ -31,9 +31,12 @@ class Enemy{
         fill(this.color);
         ellipse(this.x,this.y,this.size,this.size);
         fill("black");
+        strokeWeight(2);
         textAlign(CENTER, CENTER);
         textSize(15);
+        if(this.color == "black"){fill("white")}
         text(this.strength,this.x,this.y)
+        strokeWeight(5);
     }
 
     move(){

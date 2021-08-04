@@ -16,7 +16,25 @@
 </head>
 <body>
     <div id="gameCanvas"></div>
-    <div id="gameMenu"></div>
+    <div id="gameMenu">
+        <div id = "moneycontainer">
+            <img src = "img/money.png">
+            <span id = "money">100</span>
+        </div>
+        <div id = "livescontainer">
+            <img src="img/health.png">
+            <span id = "lives">100</span>
+        </div>
+        <div id = "wavecontainer">
+            <img src="img/wave.png">
+            <span id = "wave">1</span>
+        </div>
+        <div id = "buttons">
+            <button id = "buy" onclick = "buyTurret()"> Buy Turret</button>
+            <button id = "upgrade" onclick = "upgradeTurret()">Upgrade Turret</button>
+            <button id = "startwave" onclick = "startWave()">Start Wave</button>
+        </div>
+    </div>
 </body>
 
 </html>

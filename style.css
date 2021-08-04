@@ -1,3 +1,62 @@
-canvas {
-  border: 1px solid #000;
+
+#gameMenu{
+  display: block;
+  width:250px;
+  background-color:lightgreen;
+  position: absolute;
+  left: 540px;
+  top: 10px;
+  height:500px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 10px black double
+}
+#gameMenu div img{
+  width:75px;
+  padding: 2px;
+}
+
+#money{
+  position:absolute;
+  top:36px;
+  left:110px;
+  font-size: 40px;
+  z-index: 50;
+  font-family: sans-serif;
+}
+#money{
+  position:absolute;
+  top:36px;
+  left:110px;
+  font-size: 40px;
+  z-index: 50;
+  font-family: sans-serif;
+}
+
+#wave{
+  position:absolute;
+  top: 202.5px;
+  left:110px;
+  font-size: 40px;
+  z-index: 50;
+  font-family: sans-serif;
+}
+
+#lives{
+  position:absolute;
+  top:115px;
+  left:110px;
+  font-size: 40px;
+  z-index: 50;
+  font-family: sans-serif;
+}
+#buttons button{
+  width: 190px;
+  height: 60px;
+  margin-top:5px;
+  margin-bottom:5px;
+  background-color: #efefef;
+  border: 3px black soild;
+  border-radius: 30px;
+  font-size: 20px;
 }
